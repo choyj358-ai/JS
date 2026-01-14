@@ -96,6 +96,48 @@
         padding: 40px;
         color: #999;
       }
+      .new_card {
+        width: 220px;
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        font-family: Arial, sans-serif;
+      }
+
+      .new_card_header {
+        height: 120px;
+        background: linear-gradient(135deg, #6f7ae0, #7b4bb7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .new_card_title {
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+      }
+
+      .new_card_body {
+        padding: 14px;
+      }
+
+      .new_card_name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
+
+      .new_card_desc {
+        font-size: 13px;
+        color: #444;
+        line-height: 1.4;
+      }
+
+      .new_card_label {
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -149,12 +191,17 @@
           </div>
         </div>
 
-        <div class="photo-card">
-          <img src="" alt="" />
-          <div class="info">
-            <div class="title">사과</div>
-            <div>카테고리: 과일</div>
-            <div>빨간색 과일입니다</div>
+        <div class="new_card">
+          <div class="new_card_header">
+            <span class="new_card_title">사과</span>
+          </div>
+
+          <div class="new_card_body">
+            <div class="new_card_name">사과</div>
+            <div class="new_card_desc">
+              <span class="new_card_label">카테고리 :</span> 과일<br />
+              빨간색 과일입니다
+            </div>
           </div>
         </div>
 
